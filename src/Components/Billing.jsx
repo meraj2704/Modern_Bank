@@ -1,14 +1,15 @@
-import React from "react";
 import styles, { layout } from "../style";
 import { apple, google } from "../assets";
 
 const Billing = () => {
+
+  const bill = '/images/bill.png';
   return (
     <section id="product" className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
         <img
           className="w-[100%] h-[100%] relative z-[5] object-contain"
-          src="https://i.ibb.co/1qv3tLV/bill.png"
+          src={bill}
           alt=""
         />
         <div className="absolute z-[0] w-[100%] h-[100%] -left-[100%] rounded-full blue__gradient"/>

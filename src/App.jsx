@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './style';
 import Navbar from './Components/Navbar';
 import Stats from './Components/Stats';
@@ -12,6 +11,7 @@ import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 
 const App = () => {
+  
   return (
     <div className='bg-primary w-full overflow-hidden'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>

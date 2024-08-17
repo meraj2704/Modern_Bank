@@ -3,6 +3,7 @@ import styles, { layout } from '../style';
 import Button from './Button';
 
 const CardDeal = () => {
+  const cardDeal = '/images/card.png';
   return (
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
@@ -11,7 +12,7 @@ const CardDeal = () => {
         <Button styles='mt-10'></Button>
       </div>
       <div className={layout.sectionImg}>
-        <img className='w-[100%]h-[100%]' src="https://i.ibb.co/BL2qThw/card.png" alt="" />
+        <img className='w-[100%]h-[100%]' src={cardDeal} alt="" />
       </div>
     </section>
   );

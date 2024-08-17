@@ -1,9 +1,9 @@
-import React from "react";
 import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
+   const robot = '/images/robot.png';
   return (
     <section
       id="home"
@@ -36,7 +36,7 @@ const Hero = () => {
         </p>
       </div>
       <div className={`flex flex-1 ${styles.flexCenter} md:my-0 my-10 relative `}>
-        <img className="w-[100%] h-[100%] relative z-[5]" src="https://i.ibb.co/zR6Hp46/robot.png" alt="" />
+        <img className="w-[100%] h-[100%] relative z-[5]" src={robot} alt="" />
 
         <div className="absolute z-[0] w-[40%] h-[35%] top-20 pink__gradient "></div>
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient "></div>
